@@ -1,11 +1,14 @@
 import Paragrafo from '../Paragrafo'
 import Title from '../Title'
 
+import { Card, LinkButton } from './styles'
+
 const Projeto = () => (
-  <div>
+  <Card>
     <Title>Projeto Lista de tarefas</Title>
-    <Paragrafo>Lista de tarefas feita com VueJS</Paragrafo>
-  </div>
+    <Paragrafo tipo="secundario">Lista de tarefas feita com VueJS</Paragrafo>
+    <LinkButton>Visualizar</LinkButton>
+  </Card>
 )
 
 export default Projeto
